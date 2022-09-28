@@ -1,11 +1,11 @@
 package com.example.startrest;
-
+@E
 public class Book {
     private String name;
     private String author;
-    private int id;
+    private Long id;
 
-    public Book(String name, String author, int id) {
+    public Book(String name, String author, Long id) {
         this.name = name;
         this.author = author;
         this.id = id;
@@ -27,11 +27,11 @@ public class Book {
         this.author = author;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 }
